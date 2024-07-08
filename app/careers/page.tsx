@@ -1,7 +1,7 @@
 "use client";
 
 import toast, { Toaster } from "react-hot-toast";
-import CareerNode from "@/components/CareerNode";
+import CareerNode from "../components/CareerNode";
 import { uploaderOptions } from "@/lib/utils";
 import { UrlBuilder } from "@bytescale/sdk";
 import { UploadDropzone } from "@bytescale/upload-widget-react";
@@ -200,7 +200,7 @@ export default function Start() {
   );
   const notify = () => toast.error("Failed to generate,please try again");
 
-  async function parsePDF() {
+  async function parsePdf() {
     setLoading(true);
     let response = await fetch("/api/parsePdF", {
       method: "POST",
