@@ -17,6 +17,8 @@
     "clsx": "^2.1.1",
     "lucide-react": "^0.401.0",
     "next": "14.2.4",
+    "openai": "^4.52.3",
+    "pdf-parse": "^1.1.1",
     "react": "^18",
     "react-dom": "^18",
     "react-hot-toast": "^2.4.1",
@@ -26,6 +28,7 @@
   },
   "devDependencies": {
     "@types/node": "^20",
+    "@types/pdf-parse": "^1.1.4",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "postcss": "^8",
